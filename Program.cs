@@ -9,7 +9,9 @@ namespace CSharp_01_SumaDeNumerosConsecutivos
             int contador = 1;
             int suma = 0;
 
+
             while(contador <= 10){
+                Console.WriteLine("Contador + Suma: " + contador + " + " + suma + " = " + (contador+suma));
                 suma = contador + suma;
                 contador++;
             }
